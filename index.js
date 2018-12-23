@@ -63,7 +63,7 @@ const strartGame = () => {
         fliped.forEach(({ target }) => target.classList.add("hidden"));
         fliped = [];
         const matched = document.querySelectorAll(".hidden");
-        if (matched.length === ShuffledoubleImg.length) {
+        if (matched.length === ShuffledDoubleImgs.length) {
           alert("You won!");
           strartGame();
         }
