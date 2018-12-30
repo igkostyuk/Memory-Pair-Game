@@ -80,17 +80,15 @@ img {
   }
 
   .flip-container {
-    width: 80%;
+    width: 60%;
   }
 
   .flipper {
-    width: 30%;
-    height: 30%;
+    width: 23%;
+    height: 23%;
   }
 }
 
-@media screen and (min-width: 750px) {
-}
 
 @media screen and (min-width: 1250px) {
   .container-thingy {
@@ -103,7 +101,7 @@ img {
   }
 
   .flipper {
-    width: 24%;
-    height: 24%;
+    width: 23%;
+    height: 23%;
   }
 }
